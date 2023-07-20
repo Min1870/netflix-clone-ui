@@ -6,8 +6,8 @@ import { useDispatch } from "react-redux";
 import { addUser } from "../features/services/authSlice";
 
 const SignIn = () => {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("pete@gmail.com");
+  const [password, setPassword] = useState("qwer4321");
 
   const nav = useNavigate();
 
